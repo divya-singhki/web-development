@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+.card{
+width:30%;
+height:70%;
+margin: 100px 500px;
+padding: 5px 25px 200px 3px;
+/* box-shadow:  h-offset v-offset blur-radius spread-radius color; */
+box-shadow: 10px 10px 20px 5px;
+}
+.frame{
+    width: 105%;
+height: 110%;
+background-image: url('./image/WhatsApp\ Image\ 2024-07-05\ at\ 18.44.16_88020fe1.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+border: 2px solid rgb(108, 153, 30);
+}
+h2{
+    text-align: center;
+    margin: 20px 25px 50px 20px ;
+}
+.button-container{
+    /* text-align: center; */
+    margin: 10px 20px 2px 3px;
+}
+.button-container>a{
+    text-decoration: none;
+    background-color:rgba(15, 15, 17, 0.873);
+    color: white;
+font-size: 20px;
+padding: 12px 15px;
+border-radius:10px;
+border: 3px solid black;
+cursor: pointer;
+margin: 0px 25px;
+}
+.button-container>a:hover{
+    background-color:rgba(35, 35, 50, 0.873);
+}    
+.button-1{
+
+    margin: 20px 50px 100px 0px;
+    text-align: left;
+}
+.button-2{
+    text-align: center;
+    margin: 20px 0px 100px 260px;
+
+}

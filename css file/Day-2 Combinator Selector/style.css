@@ -1,0 +1,17 @@
+
+/*descendent Selector*/
+article p{
+color: red;
+}
+/*direct child selector*/
+article>p{
+    color: magenta;
+}
+/*Immediate or Adjacent Sibling selector(+)*/
+article+div+h5{
+    color:blue;
+}
+/*general Sibling selector(-)*/
+article-span{
+    color: salmon;
+}

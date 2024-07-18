@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color:black;
+}
+section{
+width:50%;
+height:50%;
+margin: 200px 400px;
+background-color: lightcoral;
+background-image: url('./images/rajasthan.jpg');
+background-size: 800px 400px;
+background-repeat:no-repeat;
+background-position: left 60px right 80px;
+}

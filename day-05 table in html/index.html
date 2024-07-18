@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+    .table{
+        text-align: center;
+    }
+        thead,tfoot{
+            background-color: black;
+            color: white;
+        }
+        tbody{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+    <table border="1" cellpadding="20px" cellspacing="10px" rules="all" align="center">
+        <caption> Course Details</caption>
+        <thead>
+            <tr align="center">
+            <!---row-1-->
+            <th >S.NO</th>
+            <th >COURSE</th>
+            <th >PRICE</th>
+            </tr>
+        </thead>
+<tbody>
+    <tr align="center">
+       <!---row-2-->
+       <td>1.</td>
+       <td>java full stack</td>
+       <td rowspan="3">30000</td>
+       </tr>
+       <tr align="center">
+        <!---row-3-->
+        <td>2.</td>
+        <td>python full stack</td>
+        <!---<td>30000</td>-->
+        </tr>
+        <tr align="center">
+            <!---row-4-->
+            <td>3.</td>
+            <td>Mern stack</td>
+            <!---<td>30000</td>-->
+            </tr>
+</tbody>
+<tfoot>
+    <tr align="center">
+        <!---row-5-->
+        <td colspan="2">Total Price</td>
+<td>90000</td>
+        </tr>
+</tfoot>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-1{
+    background-image: url('./image/Screenshot_2022-11-04-15-37-04-860_com.google.android.googlequicksearchbox.jpg');
+}
+.section-2{
+    background-image: url('./image/glocal.png');
+}
+.section-3{
+    background-image: url('./image/IMG_20200904_083554.jpg');
+}
+.section-4{
+    background-image: url('./image/IMG_20201121_073725.jpg');
+}
+.section-5{
+    background-image: url('./image/rajasthan.jpg');
+}
+.section-6{
+    background-image: url('./image/Screenshot\ \(28\).png');
+}
+

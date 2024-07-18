@@ -1,0 +1,24 @@
+/*Tag Name or Element Selector*/
+div{
+color: red;
+}
+/*id Selector*/
+#div1{
+    color: blue;
+}
+/* class selector*/
+.flex{
+    color:aquamarine;
+}
+.div1{
+    color:magenta;
+}
+/*universal selector*/
+*{
+    background-color: black;
+    color: blueviolet;
+}
+/*grouping selector*/
+#div2,.heading{
+    color:aqua;
+}
